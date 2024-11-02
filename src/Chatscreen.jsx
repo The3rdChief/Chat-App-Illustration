@@ -8,7 +8,7 @@ function Chatscreen() {
 
         <div className="flex-1 flex items-center gap-3">
           <img
-            src="../public/images/avatar.jpg"
+            src="/images/avatar.jpg"
             alt="user"
             className="rounded-full size-14 max-[390px]:size-12 object-cover border-4 border-white/70"
           />
@@ -35,9 +35,9 @@ function Chatscreen() {
 
         <div className="right">
           <div className="flex items-center gap-2 [&_img]:size-16 [&_img]:object-cover [&_img]:rounded-lg [&_img]:cursor-pointer">
-            <img src="../public/images/dog-image-1.jpg" alt="dog photo" />
-            <img src="../public/images/dog-image-2.jpg" alt="dog photo" />
-            <img src="../public/images/dog-image-3.jpg" alt="dog photo" />
+            <img src="/images/dog-image-1.jpg" alt="dog photo" />
+            <img src="/images/dog-image-2.jpg" alt="dog photo" />
+            <img src="/images/dog-image-3.jpg" alt="dog photo" />
           </div>
 
           <p>Here are a few pictures. She&#39;s a happy girl!</p>
